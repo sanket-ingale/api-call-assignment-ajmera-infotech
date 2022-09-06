@@ -1,0 +1,11 @@
+.app--header{
+    display: flex;
+    gap: 2vw;
+  }
+  
+  .app--header > * {
+    padding: 1vw;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }

@@ -1,0 +1,24 @@
+
+.row--name{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.element{
+    display: flex;
+/* justify-content: space-between; */
+}
+
+.element--title{
+    font-weight: 500;
+}
+
+.element > * {
+    padding: 1vh;
+    text-overflow: ellipsis;
+}
+
+.element--array{
+    display: flex;
+    flex-direction: column;
+}

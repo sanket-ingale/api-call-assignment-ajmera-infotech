@@ -1,0 +1,34 @@
+.table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1vh;
+    padding: 2vw;
+    border-radius: 15px;
+    background-color: #eee;
+  }
+  
+  .table--header{
+    font-weight: 800;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid #555;
+  }
+  
+  .table--header, .row--container{
+    display: flex;
+    gap: 2vw;
+    justify-content: space-between;
+  }
+  
+  .table--footer{
+    cursor: pointer;  
+    padding-top: 2vh;
+    margin-top: 2vh;
+    border-top: 1px solid #555;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+  }
+  
